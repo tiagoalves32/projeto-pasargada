@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+    --fontecomum: Verdana, Helvetica, sans-serif;
+    --fontealt: 'Pacifico', cursive;
+    --fonteespecial: 'Kanit', sans-serif;
+}
+
+body, html {
+    min-height: 100vh;
+    background-color: rgba(255, 228, 196, 0.534);
+}
+
+p.complemento {
+    font-family: var(--fontealt);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.8vh;
+    padding:40px;
+    text-align: right;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.103);
+}
+
+header {
+    height:200px;
+    padding-top: 55px;
+    text-align: center;
+}
+
+header > h1 {
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.158);
+    font-variant: small-caps;
+    font-style: italic;
+    font-family: var(--fontealt);
+    font-size: 6.0vh;
+}
+
+header > p {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.171);
+    font-family: var(--fontealt);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3vh;
+    padding: 25px 0px 45px 0px;
+}
+
+section {
+    font-family: var(--fontealt);
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 4.0vh;
+    line-height: 2.5em;
+}
+
+section > p {
+    padding-bottom: 25px;
+}
+
+section.imagem { 
+    box-shadow: inset 10px 10px 5px 0px rgba(0, 0, 0, 0.295);
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../imagens/pasárgada-p.jpeg');
+    background-color: rgba(222, 184, 135, 0.459);
+}
+section.imagem > p {
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.212);
+    background-color: rgba(131, 126, 126, 0.219);
+    display:inline-block;
+    padding:5px;
+}
+
+#img2.imagem {
+    background-image: url('../imagens/andarilho-p.jpeg');
+    background-size: cover;
+}
+
+footer { 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.068);
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 40px;
+    font-family: var(--fonteespecial);
+    font-weight: bold;
+    font-size: 2vh;
+    font-style: italic;
+}
+
+a {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.048);
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
